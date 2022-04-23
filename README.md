@@ -1,5 +1,5 @@
 <a href="https://github.com/Angelmaneuver">
-  <img align="center" src="https://github-readme-stats-angelmaneuver.vercel.app/api?username=Angelmaneuver&theme=iceberg&show_icons=true&cache_seconds=86400" />
+  <img align="center" src="https://github-readme-stats-angelmaneuver.vercel.app/api?username=Angelmaneuver&theme=iceberg&show_icons=true&hide_border=false&cache_seconds=86400" />
 </a>
 
 - 👋 Hi, I’m @Angelmaneuver
