@@ -17,7 +17,7 @@
 
 <h3 align="left">Stats:</h3>
 <a href="https://github.com/Angelmaneuver">
-  <img style="height:180px;" src="https://github-readme-stats-angelmaneuvers-projects.vercel.app/api?username=Angelmaneuver&show_icons=true&cache_seconds=86400" />
+  <img style="height:180px;" src="https://github-readme-stats-chi-six-97.vercel.app/api?username=Angelmaneuver&show_icons=true&cache_seconds=86400" />
 </a>
 <a href="https://github.com/Angelmaneuver">
   <img style="height:180px;" src="https://github-readme-stats-angelmaneuvers-projects.vercel.app/api/top-langs/?username=Angelmaneuver&layout=compact" />
