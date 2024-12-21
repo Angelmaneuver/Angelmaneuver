@@ -16,14 +16,14 @@ jobs:
     - name: Default metrics
       uses: lowlighter/metrics@latest
       with:
-        filename: output/metrics.base.svg
+        filename: profile/metrics.base.svg
         token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         base: header, activity, community, repositories, metadata
 
     - name: Most used (with details)
       uses: lowlighter/metrics@latest
       with:
-        filename: output/details.svg
+        filename: profile/details.svg
         token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         base: ""
         repositories_skipped: chatbot-ui, gitHub-readme-stats-clone, PL0-compiler
@@ -38,7 +38,7 @@ jobs:
     - name: Compact display
       uses: lowlighter/metrics@latest
       with:
-        filename: output/metrics.plugin.achievements.compact.svg
+        filename: profile/metrics.plugin.achievements.compact.svg
         token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         base: ""
         plugin_achievements: yes
