@@ -14,14 +14,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Default metrics
-      uses: lowlighter/metrics@latest
+      uses: lowlighter/metrics@master
       with:
         filename: profile/metrics.base.svg
         token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         base: header, activity, community, repositories, metadata
 
     - name: Most used (with details)
-      uses: lowlighter/metrics@latest
+      uses: lowlighter/metrics@master
       with:
         filename: profile/details.svg
         token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
@@ -36,7 +36,7 @@ jobs:
         plugin_followup_indepth: yes
 
     - name: Compact display
-      uses: lowlighter/metrics@latest
+      uses: lowlighter/metrics@master
       with:
         filename: profile/metrics.plugin.achievements.compact.svg
         token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
