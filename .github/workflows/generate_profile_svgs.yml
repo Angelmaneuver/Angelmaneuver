@@ -36,7 +36,7 @@ jobs:
         plugin_followup_indepth: yes
 
     - name: Detailed display
-      uses: lowlighter/metrics@latest
+      uses: gh-metrics/metrics@master
       with:
         filename: profile/metrics.plugin.achievements.compact.svg
         token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
