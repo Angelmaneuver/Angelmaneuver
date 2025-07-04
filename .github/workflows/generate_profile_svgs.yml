@@ -39,7 +39,7 @@ jobs:
       uses: lowlighter/metrics@latest
       with:
         filename: profile/metrics.plugin.achievements.svg
-        token: ${{ secrets.FINE_GRAINED_PERSONAL_ACCESS_TOKEN }}
+        token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         base: ""
         plugin_achievements: yes
         plugin_achievements_only: >-
