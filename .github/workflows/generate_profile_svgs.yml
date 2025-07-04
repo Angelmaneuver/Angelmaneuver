@@ -21,7 +21,7 @@ jobs:
         base: header, activity, community, repositories, metadata
 
     - name: Most used (with details)
-      uses: lowlighter/metrics@latest
+      uses: stalomeow/metrics@projects-v2
       with:
         filename: profile/details.svg
         token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
@@ -36,10 +36,12 @@ jobs:
         plugin_followup_indepth: yes
 
     - name: Detailed display
-      uses: lowlighter/metrics@latest
+      uses: stalomeow/metrics@projects-v2
       with:
         filename: profile/metrics.plugin.achievements.svg
         token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         base: ""
         plugin_achievements: yes
-        plugin_achievements_only: sponsor, maintainer, octonaut
+        plugin_achievements_only: >-
+          polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
+          scripter, packager, explorer, infographile, manager
