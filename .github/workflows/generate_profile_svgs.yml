@@ -36,7 +36,7 @@ jobs:
         plugin_followup_indepth: yes
 
     - name: Detailed display
-      uses: stalomeow/metrics@projects-v2
+      uses: gh-metrics/metrics@master
       with:
         filename: profile/metrics.plugin.achievements.svg
         token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
