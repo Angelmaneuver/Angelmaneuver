@@ -6,7 +6,7 @@
   <br />
   <img src="profile/details.svg" />
   <br />
-  <img src="profile/metrics.plugin.achievements.compact.svg" />
+  <img src="profile/metrics.plugin.achievements.svg" />
 </div>
 
 <details><summary><h2>3D Contrib:</h2></summary>
