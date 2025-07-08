@@ -36,7 +36,7 @@ jobs:
         plugin_followup_indepth: yes
 
     - name: Detailed display
-      uses: lowlighter/metrics@latest
+      uses: yobson1/metrics@latest
       with:
         filename: profile/metrics.plugin.achievements.svg
         token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
