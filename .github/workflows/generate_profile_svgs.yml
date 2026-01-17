@@ -17,14 +17,14 @@ jobs:
       uses: lowlighter/metrics@latest
       with:
         filename: profile/metrics.base.svg
-        token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        token: ${{ secrets.PERSONAL_ACCESS_TOKEN_CLASSIC }}
         base: header, activity, community, repositories, metadata
 
     - name: Most used (with details)
       uses: yobson1/metrics@master
       with:
         filename: profile/details.svg
-        token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        token: ${{ secrets.PERSONAL_ACCESS_TOKEN_CLASSIC }}
         base: ""
         repositories_skipped: chatbot-ui, gitHub-readme-stats-clone, PL0-compiler
         plugin_languages: yes
@@ -39,7 +39,7 @@ jobs:
       uses: yobson1/metrics@master
       with:
         filename: profile/metrics.plugin.achievements.svg
-        token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        token: ${{ secrets.PERSONAL_ACCESS_TOKEN_CLASSIC }}
         base: ""
         plugin_achievements: yes
         plugin_achievements_only: >-
